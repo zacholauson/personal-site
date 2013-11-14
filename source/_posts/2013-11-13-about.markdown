@@ -1,0 +1,9 @@
+---
+layout: post
+title: " "
+date: 2013-11-13 23:26
+comments: false
+categories: 
+---
+
+I am a web developer currently living in Chicago. I recently completed Dev Bootcamp, here in Chicago, and now I am actively looking for a place to start contributing to a team and push myself to learn more.
