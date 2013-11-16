@@ -60,18 +60,27 @@ h2 {
 		}
 	
 	/* blog footer */
-	& > footer {
-		margin-top: 2em;
-		padding: 2em 0;
-		border-top: 1px solid $light-gray;
-		text-align: center;
-		font-size: 0.8em;
-		}
-	}
+	// & > footer {
+	// 	margin-top: 2em;
+	// 	padding: 2em 0;
+	// 	border-top: 1px solid $light-gray;
+	// 	text-align: center;
+	// 	font-size: 0.8em;
+	// 	}
+	// }
+
+  & > footer {
+    position: absolute;
+    padding: 2em 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 0.8em;
+    }
+  }
 
 /* The main blog header */
 header {
-	margin-bottom: $space-between-posts/2*1em;
+	// margin-bottom: $space-between-posts/2*1em;
 	padding: $header-spacing 0;
 	// border-bottom: 1px solid $light-gray;
 	text-align: center;
@@ -174,8 +183,9 @@ article {
 		}
 		
 	hr {
-		margin: $hr-spacing !important;
-		height: 1px;
+		// margin: $hr-spacing !important;
+		margin: 0;
+		height: 0;
 		border: none;
 		color: $light-gray;
 		// background-color: $light-gray;
